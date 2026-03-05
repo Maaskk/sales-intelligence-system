@@ -1,0 +1,53 @@
+{
+  "model_type": "Regression",
+  "algorithm": "XGBoost",
+  "features": [
+    "Store",
+    "DayOfWeek",
+    "Open",
+    "Promo",
+    "StateHoliday",
+    "SchoolHoliday",
+    "StoreType_encoded",
+    "Assortment_encoded",
+    "CompetitionDistance",
+    "CompetitionOpenSinceMonth",
+    "CompetitionOpenSinceYear",
+    "Promo2",
+    "Promo2SinceWeek",
+    "Promo2SinceYear",
+    "Year",
+    "Month",
+    "WeekOfYear"
+  ],
+  "training_date": "2026-02-05T17:23:00.000Z",
+  "metrics": {
+    "mae": 479.53,
+    "rmse": 707.05,
+    "r2_score": 0.9482,
+    "mape": 5.67
+  },
+  "training_samples": 844392,
+  "test_samples": 211098,
+  "feature_importance": {
+    "Store": 0.186,
+    "DayOfWeek": 0.142,
+    "Open": 0.089,
+    "Promo": 0.156,
+    "StateHoliday": 0.012,
+    "SchoolHoliday": 0.023,
+    "StoreType_encoded": 0.067,
+    "Assortment_encoded": 0.045,
+    "CompetitionDistance": 0.134,
+    "CompetitionOpenSinceMonth": 0.028,
+    "CompetitionOpenSinceYear": 0.034,
+    "Promo2": 0.019,
+    "Promo2SinceWeek": 0.021,
+    "Promo2SinceYear": 0.017,
+    "Year": 0.012,
+    "Month": 0.015,
+    "WeekOfYear": 0.020
+  },
+  "dataset": "rossmann_store_sales",
+  "model_purpose": "Daily store sales prediction"
+}

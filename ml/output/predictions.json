@@ -1,0 +1,242 @@
+[
+  {
+    "date": "2026-02-05",
+    "predicted_sales": 5323406,
+    "confidence_lower": 4524895,
+    "confidence_upper": 6121917,
+    "trend": "stable",
+    "model": "xgboost_rossmann"
+  },
+  {
+    "date": "2026-02-06",
+    "predicted_sales": 246539,
+    "confidence_lower": 209558,
+    "confidence_upper": 283520,
+    "trend": "down",
+    "model": "xgboost_rossmann"
+  },
+  {
+    "date": "2026-02-07",
+    "predicted_sales": 6539197,
+    "confidence_lower": 5558317,
+    "confidence_upper": 7520077,
+    "trend": "up",
+    "model": "xgboost_rossmann"
+  },
+  {
+    "date": "2026-02-08",
+    "predicted_sales": 5495579,
+    "confidence_lower": 4671242,
+    "confidence_upper": 6319916,
+    "trend": "down",
+    "model": "xgboost_rossmann"
+  },
+  {
+    "date": "2026-02-09",
+    "predicted_sales": 6055549,
+    "confidence_lower": 5147217,
+    "confidence_upper": 6963881,
+    "trend": "up",
+    "model": "xgboost_rossmann"
+  },
+  {
+    "date": "2026-02-10",
+    "predicted_sales": 6090491,
+    "confidence_lower": 5176917,
+    "confidence_upper": 7004065,
+    "trend": "stable",
+    "model": "xgboost_rossmann"
+  },
+  {
+    "date": "2026-02-11",
+    "predicted_sales": 6252293,
+    "confidence_lower": 5314449,
+    "confidence_upper": 7190137,
+    "trend": "stable",
+    "model": "xgboost_rossmann"
+  },
+  {
+    "date": "2026-02-12",
+    "predicted_sales": 4946646,
+    "confidence_lower": 4204649,
+    "confidence_upper": 5688643,
+    "trend": "down",
+    "model": "xgboost_rossmann"
+  },
+  {
+    "date": "2026-02-13",
+    "predicted_sales": 236775,
+    "confidence_lower": 201259,
+    "confidence_upper": 272291,
+    "trend": "down",
+    "model": "xgboost_rossmann"
+  },
+  {
+    "date": "2026-02-14",
+    "predicted_sales": 4643997,
+    "confidence_lower": 3947397,
+    "confidence_upper": 5340597,
+    "trend": "up",
+    "model": "xgboost_rossmann"
+  },
+  {
+    "date": "2026-02-15",
+    "predicted_sales": 4124014,
+    "confidence_lower": 3505412,
+    "confidence_upper": 4742616,
+    "trend": "down",
+    "model": "xgboost_rossmann"
+  },
+  {
+    "date": "2026-02-16",
+    "predicted_sales": 5068501,
+    "confidence_lower": 4308226,
+    "confidence_upper": 5828776,
+    "trend": "up",
+    "model": "xgboost_rossmann"
+  },
+  {
+    "date": "2026-02-17",
+    "predicted_sales": 5216188,
+    "confidence_lower": 4433760,
+    "confidence_upper": 5998616,
+    "trend": "stable",
+    "model": "xgboost_rossmann"
+  },
+  {
+    "date": "2026-02-18",
+    "predicted_sales": 5501959,
+    "confidence_lower": 4676665,
+    "confidence_upper": 6327253,
+    "trend": "up",
+    "model": "xgboost_rossmann"
+  },
+  {
+    "date": "2026-02-19",
+    "predicted_sales": 4075379,
+    "confidence_lower": 3464072,
+    "confidence_upper": 4686686,
+    "trend": "down",
+    "model": "xgboost_rossmann"
+  },
+  {
+    "date": "2026-02-20",
+    "predicted_sales": 239885,
+    "confidence_lower": 203902,
+    "confidence_upper": 275868,
+    "trend": "down",
+    "model": "xgboost_rossmann"
+  },
+  {
+    "date": "2026-02-21",
+    "predicted_sales": 6928411,
+    "confidence_lower": 5889149,
+    "confidence_upper": 7967673,
+    "trend": "up",
+    "model": "xgboost_rossmann"
+  },
+  {
+    "date": "2026-02-22",
+    "predicted_sales": 5885356,
+    "confidence_lower": 5002553,
+    "confidence_upper": 6768159,
+    "trend": "down",
+    "model": "xgboost_rossmann"
+  },
+  {
+    "date": "2026-02-23",
+    "predicted_sales": 6452418,
+    "confidence_lower": 5484555,
+    "confidence_upper": 7420281,
+    "trend": "up",
+    "model": "xgboost_rossmann"
+  },
+  {
+    "date": "2026-02-24",
+    "predicted_sales": 6267072,
+    "confidence_lower": 5327011,
+    "confidence_upper": 7207133,
+    "trend": "stable",
+    "model": "xgboost_rossmann"
+  },
+  {
+    "date": "2026-02-25",
+    "predicted_sales": 6446236,
+    "confidence_lower": 5479301,
+    "confidence_upper": 7413171,
+    "trend": "stable",
+    "model": "xgboost_rossmann"
+  },
+  {
+    "date": "2026-02-26",
+    "predicted_sales": 5018203,
+    "confidence_lower": 4265473,
+    "confidence_upper": 5770933,
+    "trend": "down",
+    "model": "xgboost_rossmann"
+  },
+  {
+    "date": "2026-02-27",
+    "predicted_sales": 237675,
+    "confidence_lower": 202024,
+    "confidence_upper": 273326,
+    "trend": "down",
+    "model": "xgboost_rossmann"
+  },
+  {
+    "date": "2026-02-28",
+    "predicted_sales": 4554395,
+    "confidence_lower": 3871236,
+    "confidence_upper": 5237554,
+    "trend": "up",
+    "model": "xgboost_rossmann"
+  },
+  {
+    "date": "2026-03-01",
+    "predicted_sales": 3974555,
+    "confidence_lower": 3378372,
+    "confidence_upper": 4570738,
+    "trend": "down",
+    "model": "xgboost_rossmann"
+  },
+  {
+    "date": "2026-03-02",
+    "predicted_sales": 4982796,
+    "confidence_lower": 4235377,
+    "confidence_upper": 5730215,
+    "trend": "up",
+    "model": "xgboost_rossmann"
+  },
+  {
+    "date": "2026-03-03",
+    "predicted_sales": 5216571,
+    "confidence_lower": 4434085,
+    "confidence_upper": 5999057,
+    "trend": "stable",
+    "model": "xgboost_rossmann"
+  },
+  {
+    "date": "2026-03-04",
+    "predicted_sales": 6317746,
+    "confidence_lower": 5370084,
+    "confidence_upper": 7265408,
+    "trend": "up",
+    "model": "xgboost_rossmann"
+  },
+  {
+    "date": "2026-03-05",
+    "predicted_sales": 5831490,
+    "confidence_lower": 4956766,
+    "confidence_upper": 6706214,
+    "trend": "down",
+    "model": "xgboost_rossmann"
+  },
+  {
+    "date": "2026-03-06",
+    "predicted_sales": 262535,
+    "confidence_lower": 223155,
+    "confidence_upper": 301915,
+    "trend": "down",
+    "model": "xgboost_rossmann"
+  }
+]

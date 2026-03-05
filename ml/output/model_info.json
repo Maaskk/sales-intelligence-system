@@ -1,0 +1,35 @@
+{
+  "model_type": "Regression",
+  "algorithm": "Random Forest",
+  "features": [
+    "quantity",
+    "unit_price",
+    "day_of_week",
+    "month",
+    "quarter",
+    "promotion",
+    "category_encoded",
+    "region_encoded",
+    "customer_segment_encoded"
+  ],
+  "training_date": "2026-02-05T15:35:32.548327",
+  "metrics": {
+    "mae": 116.73923479597903,
+    "rmse": 606.5344049275983,
+    "r2_score": 0.9771317726522983,
+    "mape": 2.1305636452568892
+  },
+  "training_samples": 1600,
+  "test_samples": 400,
+  "feature_importance": {
+    "quantity": 0.546159932947845,
+    "unit_price": 0.44732212670154514,
+    "day_of_week": 0.0010628761357758811,
+    "month": 0.0014529271793933462,
+    "quarter": 0.0004940100867196775,
+    "promotion": 0.0006111913281003064,
+    "category_encoded": 6.791757374910353e-05,
+    "region_encoded": 0.0008617140787390891,
+    "customer_segment_encoded": 0.001967303968132442
+  }
+}

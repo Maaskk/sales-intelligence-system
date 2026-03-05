@@ -1,0 +1,41 @@
+{
+  "features": [
+    "Store_encoded",
+    "DayOfWeek",
+    "Promo",
+    "StateHoliday",
+    "SchoolHoliday",
+    "StoreType_encoded",
+    "Assortment_encoded",
+    "CompetitionDistance",
+    "CompetitionOpenSince",
+    "IsPromo2Active",
+    "Year",
+    "Month",
+    "WeekOfYear",
+    "Quarter"
+  ],
+  "metrics": {
+    "mae": 1303.1678401841232,
+    "rmse": 1801.882912938512,
+    "r2_score": 0.6633282940899261,
+    "mape": 4776548747.062047
+  },
+  "feature_importance": {
+    "Store_encoded": 0.23626700190691927,
+    "DayOfWeek": 0.08533946433389415,
+    "Promo": 0.21372528542543337,
+    "StateHoliday": 0.0018540144900177006,
+    "SchoolHoliday": 0.004254993778236742,
+    "StoreType_encoded": 0.05658895336887239,
+    "Assortment_encoded": 0.030807063701794223,
+    "CompetitionDistance": 0.23416199682689212,
+    "CompetitionOpenSince": 0.06957324874929938,
+    "IsPromo2Active": 0.005615669773642911,
+    "Year": 0.007621897749493763,
+    "Month": 0.01287449529513786,
+    "WeekOfYear": 0.040787072390234234,
+    "Quarter": 0.0005288422101318794
+  },
+  "training_date": "2026-02-05T16:42:42.219875"
+}
