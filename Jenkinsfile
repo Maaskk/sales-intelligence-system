@@ -2,20 +2,13 @@ pipeline {
     agent any
     
     tools {
-        nodejs 'Node-25.8.0'
+        nodejs 'Node-25'
     }
     
     stages {
         stage('Checkout') {
             steps {
                 checkout scm
-            }
-        }
-        
-        stage('Install Dependencies') {
-            steps {
-                sh 'sudo apt-get update'
-                sh 'sudo apt-get install -y libatomic1'
             }
         }
         
