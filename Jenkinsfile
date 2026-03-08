@@ -1,18 +1,14 @@
 pipeline {
     agent any
     
+    tools {
+        nodejs 'Node-25'
+    }
+    
     stages {
         stage('Checkout') {
             steps {
                 checkout scm
-            }
-        }
-        
-        stage('Setup Node') {
-            steps {
-                sh 'curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -'
-                sh 'sudo apt-get update'
-                sh 'sudo apt-get install -y nodejs'
             }
         }
         
