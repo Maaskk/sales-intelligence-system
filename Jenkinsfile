@@ -1,10 +1,6 @@
 pipeline {
     agent any
     
-    tools {
-        jdk 'JDK-17'
-    }
-    
     stages {
         stage('Checkout') {
             steps {
@@ -15,6 +11,7 @@ pipeline {
         stage('Setup Node') {
             steps {
                 sh 'curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -'
+                sh 'sudo apt-get update'
                 sh 'sudo apt-get install -y nodejs'
             }
         }
