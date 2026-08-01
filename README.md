@@ -1,1 +1,3 @@
-🚀 Automated webhook test - Sun Mar  8 17:44:56 +00 2026
+# Sales Intelligence System
+
+Repository used for sales-intelligence webhook experiments.
